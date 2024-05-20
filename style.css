@@ -1,0 +1,38 @@
+*{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: blueviolet;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.clock{
+    background-color: black;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 550px;
+    height: 150px;
+    font-size: 80px;
+}
+
+.clock span{
+    background-color: black;
+    color:cyan;
+}
+
+#session{
+    margin-left: 20px;
+}
+
+
+
+
+
+
